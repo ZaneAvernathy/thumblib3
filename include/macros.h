@@ -31,4 +31,8 @@
   // literal pool.
   #define LTORG() asm volatile (".ltorg" ::: "memory");
 
+  // Long-calls the function pointed to by the link register,
+  // setting the link register to after the jump.
+  #define BL_LR() asm THUMBLIB_OP_FLAGS (".byte 0x00, 0xF8" ::: "lr", "memory");
+
 #endif // THUMBLIB_3_MACROS
