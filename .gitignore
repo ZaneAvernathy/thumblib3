@@ -1,0 +1,9 @@
+
+*.sublime*
+
+**/*.o
+**/*.dmp
+**/*.asm
+**/*.lyn.event
+
+tests/*

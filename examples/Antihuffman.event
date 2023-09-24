@@ -1,0 +1,12 @@
+
+PUSH
+
+  ORG 0x00002BA4
+    #include "AntihuffmanPointerTester.lyn.event"
+    ASSERT (0x00002BB8 - CURRENTOFFSET)
+
+  ORG 0x0000A240
+    #include "AntihuffmanBody.lyn.event"
+    ASSERT (0x0000A280 - CURRENTOFFSET)
+
+POP
