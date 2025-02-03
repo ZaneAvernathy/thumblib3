@@ -42,7 +42,7 @@
       asm THUMBLIB_OP_FLAGS (                          \
         Opcode " %[_Rd], %[_Rs], %[_Immediate]"        \
         : [_Rd] "=l" (Rd)                              \
-        : [_Rs] "l" (Rd), [_Immediate] "L" (Immediate) \
+        : [_Rs] "l" (Rs), [_Immediate] "L" (Immediate) \
         : "cc"                                         \
       );
 
