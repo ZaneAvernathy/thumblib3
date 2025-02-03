@@ -4,7 +4,7 @@
 
   /* THUMBLIB3 special macros
    *
-   * This file defines macros that uses might find
+   * This file defines macros that users might find
    * useful, like alignment tools and pool manipulation.
    */
 

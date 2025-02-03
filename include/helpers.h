@@ -81,7 +81,7 @@
      * version of a macro to be used.
      *
      * The `Opcode` parameter is a string that is used within the
-     * assemly code as the opcode's name.
+     * assembly code as the opcode's name.
      *
      * The remaining parameters are up to the individual overloads.
      *
